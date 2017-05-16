@@ -39,7 +39,14 @@
             var vm = new Vue({
                 el: "#app",
                 data: {
-                    rawMarkdown: '',
+                    rawMarkdown: 
+                    `# Github Markdown Previewer 
+                    ## C# Code 
+                    \`\`\`csharp 
+                    public static void main(String[] args) { 
+                        Console.WriteLine("Hello World"); 
+                    }
+                    \`\`\``,
                     renderedMarkdown: ''
                 },
                 methods: {
